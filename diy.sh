@@ -8,7 +8,7 @@
 git clone https://github.com/tty228/luci-app-serverchan.git package/others/luci-app-serverchan
 git clone https://github.com/vernesong/OpenClash.git package/others/OpenClash
 git clone https://github.com/Aslin-Ameng/luci-theme-Light.git package/others/luci-theme-Light
-echo 'src-git lienol https://github.com/Lienol/openwrt-package' >> feeds.conf.default
+git clone https://github.com/Lienol/openwrt-package.git feeds/lienol
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 # Modify default IP
